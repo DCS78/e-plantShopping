@@ -28,20 +28,11 @@
 
     .navbar .ul {
         display: flex;
-        justify-content: space-between;
         align-items: center;
     }
 
-        .navbar .ul .plants-link {
-            align-items: center;
-            justify-content: center;
-            padding-left: 0px;
-            font-size: 48px;
-            color: white;
-        }
-
         .navbar .ul .cart-link {
-            font-size: 64px;
+            font-size: 48px;
         }
 
 @media (max-width: 768px) {
