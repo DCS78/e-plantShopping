@@ -23,8 +23,18 @@
             align-items: center;
             justify-content: center;
             margin-left: 25px;
-            color: white;
+            color: #fff !important;
         }
+
+    .navbar .plant-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 25px;
+        text-decoration: none;
+        font-size: 48px;
+        color: #fff !important;
+    }
 
     .navbar .ul {
         display: flex;
