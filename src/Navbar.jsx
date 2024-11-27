@@ -1,12 +1,12 @@
 import React from 'react';
 import './Navbar.css';
 
-const Navbar = ({ onShowPlants, onShowCart, totalQuantity }) => (
+const Navbar = ({ onShowAbout, onShowPlants, onShowCart, totalQuantity }) => (
     <div className="navbar">
         <div className="tag">
             <div className="luxury">
                 <img src="https://cdn.pixabay.com/photo/2020/08/05/13/12/eco-5465432_1280.png" alt="Paradise Nursery Logo" />
-                <a href="/">
+                <a href="/" onClick={onShowAbout} >
                     <div>
                         <h2 className="luxury-text">Paradise Nursery</h2>
                         <i className="luxury-text">Where Green Meets Serenity</i>
