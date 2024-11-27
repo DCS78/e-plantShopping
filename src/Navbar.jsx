@@ -14,7 +14,8 @@ const Navbar = ({ onShowPlants, onShowCart, totalQuantity }) => (
                 </a>
             </div>
         </div>
-        <div className="ul">
+        <div><a href="#" className="plant-link" onClick={onShowPlants}>Plants</a></div>
+        <div className="ul"> 
             <div>
                 <a href="#" onClick={onShowCart} className="cart-link">
                     <h1 className='cart'>
