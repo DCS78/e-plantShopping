@@ -7,7 +7,7 @@ const Navbar = ({ onShowPlants, onShowCart, totalQuantity }) => {
             <div className="tag">
                 <div className="luxury">
                     <img src="https://cdn.pixabay.com/photo/2020/08/05/13/12/eco-5465432_1280.png" alt="Paradise Nursery Logo" />
-                    <a href="/e-plantShopping/AboutUs.jsx">
+                    <a href="/e-plantShopping/">
                         <div>
                             <h2 className="luxury-text">Paradise Nursery</h2>
                             <i className="luxury-text">Where Green Meets Serenity</i>
@@ -15,7 +15,7 @@ const Navbar = ({ onShowPlants, onShowCart, totalQuantity }) => {
                     </a>
                 </div>
             </div>
-            <div><a href="/e-plantShopping/ProductList.jsx" className="plant-link" onClick={onShowPlants}>Plants</a></div>
+            <div><a href="#" className="plant-link" onClick={onShowPlants}>Plants</a></div>
             <div className="ul">
                 <div>
                     <a href="#" onClick={onShowCart} className="cart-link">
